@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.9.1](https://github.com/keptn/lifecycle-toolkit/compare/metrics-operator-v0.9.0...metrics-operator-v0.9.1) (2024-01-16)
+
+
+### Bug Fixes
+
+* **metrics-operator:** flush error message after successful retrieval of value from provider ([#2754](https://github.com/keptn/lifecycle-toolkit/issues/2754)) ([89d5a47](https://github.com/keptn/lifecycle-toolkit/commit/89d5a47412690f4752b627329c960d01dafddabf))
+
+
+### Other
+
+* **metrics-operator:** make Dynatrace DQL provider oAuth URL configurable ([#2713](https://github.com/keptn/lifecycle-toolkit/issues/2713)) ([b77191c](https://github.com/keptn/lifecycle-toolkit/commit/b77191cfa8d4aec4942cd12fdc6791b25c48d5ce))
+* revert helm charts bump ([#2806](https://github.com/keptn/lifecycle-toolkit/issues/2806)) ([2e85214](https://github.com/keptn/lifecycle-toolkit/commit/2e85214ecd6112e9f9af750d9bde2d491dc8ae73))
+* upgrade helm chart versions ([#2801](https://github.com/keptn/lifecycle-toolkit/issues/2801)) ([ad26093](https://github.com/keptn/lifecycle-toolkit/commit/ad2609373c4819fc560766e64bc032fcfd801889))
+
+
+### Dependency Updates
+
+* update dependency kubernetes-sigs/controller-tools to v0.14.0 ([#2797](https://github.com/keptn/lifecycle-toolkit/issues/2797)) ([71f20a6](https://github.com/keptn/lifecycle-toolkit/commit/71f20a63f8e307d6e94c9c2df79a1258ab147ede))
+* update golang.org/x/exp digest to 0dcbfd6 ([#2783](https://github.com/keptn/lifecycle-toolkit/issues/2783)) ([2cd4491](https://github.com/keptn/lifecycle-toolkit/commit/2cd4491fa49876534b0f5344c1e3dd4fcab7e540))
+* update golang.org/x/exp digest to db7319d ([#2791](https://github.com/keptn/lifecycle-toolkit/issues/2791)) ([66f199a](https://github.com/keptn/lifecycle-toolkit/commit/66f199a7ab54eb8c9b8160cbe021d81306c7927a))
+* update module github.com/datadog/datadog-api-client-go/v2 to v2.21.0 ([#2796](https://github.com/keptn/lifecycle-toolkit/issues/2796)) ([456ff57](https://github.com/keptn/lifecycle-toolkit/commit/456ff570840ce27e9959d0aead34f70fba9a48da))
+* update module golang.org/x/net to v0.20.0 ([#2786](https://github.com/keptn/lifecycle-toolkit/issues/2786)) ([8294c7b](https://github.com/keptn/lifecycle-toolkit/commit/8294c7b471d7f4d33961513e056c36ba14c940c7))
+* update module k8s.io/klog/v2 to v2.120.0 ([#2794](https://github.com/keptn/lifecycle-toolkit/issues/2794)) ([e2c2cff](https://github.com/keptn/lifecycle-toolkit/commit/e2c2cffa18c9787a4b3f05b0982d8442d4621f59))
+
 ## [0.9.0](https://github.com/keptn/lifecycle-toolkit/compare/metrics-operator-v0.8.3...metrics-operator-v0.9.0) (2024-01-10)
 
 
